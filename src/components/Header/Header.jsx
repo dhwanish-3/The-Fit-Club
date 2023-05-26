@@ -7,10 +7,10 @@ const Header=()=>{
         <div className="header">
             <img src={Logo} alt="" className="logo" />
             <ul className="header-menu">
-                <li>Home</li>
-                <li>Programs</li>
-                <li>Why us</li>
-                <li>Plans</li>
+                <li key="1">Home</li>
+                <li key="2">Programs</li>
+                <li key="3">Why us</li>
+                <li key="4">Plans</li>
             </ul>
         </div>
     )

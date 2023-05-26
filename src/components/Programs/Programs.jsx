@@ -13,8 +13,8 @@ export const Programs=()=>{
                 <span className="stroke-text">to shape you</span>
             </div>
             <div className="program-categories">
-                {programsData.map((program)=>(
-                    <div className="category">
+                {programsData.map((program,index)=>(
+                    <div key={index} className="category">
                         {program.image}
                         <span>{program.heading}</span>
                         <span>{program.details}</span>
