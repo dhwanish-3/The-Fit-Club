@@ -36,6 +36,9 @@
     width: 2rem;
     height: 2rem;
     transform: scale(1.7);
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
 }
 .plan>:nth-child(2){
     font-size: 1rem;
