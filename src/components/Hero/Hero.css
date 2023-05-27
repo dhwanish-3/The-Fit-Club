@@ -1,14 +1,16 @@
 .hero{
     display: flex;
     justify-content: space-between;
+    padding-left: 2rem;
+    height: 100%;
 }
 
 .hero-left{
     flex:3;
-    padding: 2rem;
+    padding: 1rem;
     padding-top: 1.5r;
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
     flex-direction: column;
 }
 
@@ -16,10 +18,16 @@
     flex: 1;
     position: relative;
     background-color: var(--orange);
+    height: 45rem;
+}
+
+.space-right{
+    width: 2rem;
+    background-color: var(--orange);
 }
 
 .the-best-ad{
-    margin-top: 4rem;
+    margin-top: 3rem;
     background-color: #363d42;
     border-radius: 4rem;
     width: fit-content;
@@ -121,7 +129,7 @@
     align-items: start;
     border-radius: 5px;
     position: absolute;
-    right: 4rem;
+    right: 3rem;
     top: 7rem;
 }
 
@@ -147,6 +155,7 @@
     right: 20rem;
     top: 4rem;
     z-index: -1;
+    width: 15rem;
 }
 
 .calories{

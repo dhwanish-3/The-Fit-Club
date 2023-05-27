@@ -11,6 +11,7 @@ const Header=()=>{
                 <li key="2">Programs</li>
                 <li key="3">Why us</li>
                 <li key="4">Plans</li>
+                <li key="5">Testimonials</li>
             </ul>
         </div>
     )

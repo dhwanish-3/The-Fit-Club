@@ -1,17 +1,17 @@
-.hero{
+.header{
     display: flex;
     justify-content: space-between;
 }
 
 .logo{
-    height: 10rem;
-    width: 3rem;
+    height: 3rem;
+    width: 10rem;
 }
 
 .header-menu{
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     color: white;
 }
 

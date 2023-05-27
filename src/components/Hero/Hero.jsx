@@ -23,7 +23,7 @@ const Hero=()=>{
                         <span>Your</span>
                     </div>
                     <div><span>Ideal Body</span></div>
-                    <div><span>In here we will help you to shape and buiild your ideal body</span></div>
+                    <div><span>In here we will help you to shape and build your ideal body and live up your life to fullest</span></div>
                 </div>
                 {/* experiance figures */}
                 <div className="figures">
@@ -56,6 +56,7 @@ const Hero=()=>{
                     </div>                    
                 </div>
             </div>
+            <div className="space-right"></div>
         </div>
     )
 }
