@@ -25,10 +25,9 @@
      color: white;
      gap: 2rem;
      padding: 1.5rem;
-     width: 15rem;
 }
 .plan:nth-child(2){
-    background: var(--orange);
+    background: var(--planCard);
     transform: scale(1.1);
 }
 .plan>svg{
@@ -37,8 +36,7 @@
     height: 2rem;
     transform: scale(1.7);
     padding-left: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
+    padding-top: 0.5rem;
 }
 .plan>:nth-child(2){
     font-size: 1rem;
@@ -71,4 +69,17 @@
 }
 .plans>:nth-child(2)>button{
     color: orange;
+}
+
+.plans-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+.plans-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
 }

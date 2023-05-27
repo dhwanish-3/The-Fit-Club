@@ -7,12 +7,12 @@ const Join=()=>{
       <div className="left-j">
         <hr />
         <div>
-          <span className='stronk-text'> READY TO</span>
-          <span>LEVEL UP</span>
+          <span className='stroke-text'> READY </span>
+          <span>TO LEVEL UP</span>
         </div>
         <div>
           <span>YOUR BODY</span>
-          <span className='stronk-text'> WITH US?</span>
+          <span className='stroke-text'> WITH US?</span>
         </div>
       </div>
 
