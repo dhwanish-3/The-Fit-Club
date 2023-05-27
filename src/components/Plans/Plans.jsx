@@ -3,7 +3,7 @@ import './Plans.css';
 import {plansData} from '../../data/plansData';
 import whiteTick from '../../assets/whiteTick.png';
 
-export const Plans=()=>{
+const Plans=()=>{
     return (
         <div className="Plans">
             <div className="blur plans-blur-1"></div>
@@ -40,3 +40,5 @@ export const Plans=()=>{
         </div>
     );
 }
+
+export default Plans;

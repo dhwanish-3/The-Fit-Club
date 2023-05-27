@@ -9,7 +9,7 @@ import adidas from '../../assets/adidas.png'
 import nike from '../../assets/nike.png'
 import tick from '../../assets/tick.png'
 
-export const Reasons=()=>{
+const Reasons=()=>{
     return (
         <div className="Reasons" id="Reasons ">
             <div className="left-r">
@@ -52,3 +52,5 @@ export const Reasons=()=>{
         </div>
     );
 }
+
+export default Reasons;

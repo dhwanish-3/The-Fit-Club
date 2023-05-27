@@ -6,19 +6,19 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
+      "I made the right choice by choosing the The Fit Club and by choosing the right plan and program I already achieved my ideal body!",
     name: 'MATHEW HENDRICKSON',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: 'I was not sure if I would reach my goal but The Fit Club helped me achieve my dream of getting the perfect body...',
     name: 'JOHN KEVIN',
-    status: 'COACH'
+    status: 'PROFFESSIONAL'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:'This is like dream come to true... Thank you The Fit CLub for lending a hand to achieve success...',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }

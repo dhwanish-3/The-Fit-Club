@@ -3,7 +3,7 @@ import './Programs.css';
 import {programsData} from '../../data/programsData';
 import RightArrow from '../../assets/rightArrow.png';
 
-export const Programs=()=>{
+const Programs=()=>{
     return (
         <div className="Programs" id="Programs">
             {/* header */}
@@ -28,3 +28,5 @@ export const Programs=()=>{
         </div>
     );
 }
+
+export default Programs;
