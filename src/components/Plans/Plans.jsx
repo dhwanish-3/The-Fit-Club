@@ -16,7 +16,10 @@ export const Plans=()=>{
                     <div className="plan" key={index}>
                         <svg>{plan.icon}</svg>
                         <span>{plan.name}</span>
-                        <span>Rs. {plan.price*10}</span>
+                        <div className="pricing">
+                            <span>Rs.{plan.price*10}</span>
+                        <span>/month</span>
+                        </div>                        
                         <div className="features">
                             {plan.features.map((feature,index)=>(
                                 <div className="feature" key={index}>

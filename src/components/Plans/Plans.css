@@ -35,12 +35,13 @@
     fill:var(--orange);
     width: 2rem;
     height: 2rem;
+    transform: scale(1.7);
 }
 .plan>:nth-child(2){
     font-size: 1rem;
     font-weight: bold;
 }
-.plan>:nth-child(3){
+.pricing>:nth-child(1){
     font-size: 3rem;
     font-weight: bold;
 }
@@ -57,6 +58,7 @@
 .feature{
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 .feature>img{
     width: 1rem;
