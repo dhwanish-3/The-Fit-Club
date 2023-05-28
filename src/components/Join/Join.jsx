@@ -8,7 +8,7 @@ const Join=()=>{
   const sendEmail = (e) => {
   e.preventDefault();
 
-  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+  emailjs.sendForm('service_6rrnpoi', 'template_pefnxht', form.current, 'HOrwAXuHMHNs7v1Lz')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
