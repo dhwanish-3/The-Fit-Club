@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './Header.css'
-import Logo from '../../assets/logo.png'
-import Bars from '../../assets/bars.png'
+import './Header.css';
+import Logo from '../../assets/logo.png';
+import Bars from '../../assets/bars.png';
 import { Link } from "react-scroll/modules";
 
 const Header=()=>{
