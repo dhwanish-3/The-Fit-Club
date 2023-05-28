@@ -11,11 +11,36 @@
 .header-menu{
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     color: white;
 }
 
 .header-menu>li:hover{
     cursor:pointer;
     color:var(--orange)
+}
+
+.bars-container{
+    background-color: var(--appColor);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.bars{
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+@media screen and (max-width:768px){
+    .header>:nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 9;
+    }
+
+    .header-menu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
 }

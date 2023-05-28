@@ -22,6 +22,11 @@
     font-size: 3rem;
 }
 .left-t>:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.left-t>:nth-child(4)>:nth-child(1){
     text-transform: none;
     align-items:justify;
     letter-spacing: 2px;
@@ -68,4 +73,57 @@
 .arrows>img{
     width: 1.5rem;
     cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .Testimonials{
+        flex-direction: column;
+    }
+    .left-t{
+        margin-bottom: 3rem;
+    }
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3){
+        font-size: xx-large;
+    }
+
+    .right-t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .right-t>div{
+        position: relative;
+    }
+    .right-t>:nth-child(1){
+        position: absolute;
+        width: 17rem;
+        height: 20rem;
+        border: 2px solid orange;
+        background-color: transparent;
+        left: -5%;
+        top: -1.2rem;
+    } 
+    .right-t>:nth-child(2){
+        position: absolute;
+        width: 17rem;
+        height: 19rem;
+        right: -10%;
+        top: 2rem;
+        background: var(--planCard);
+    }
+    .right-t>img{
+        top: 0;
+        right: 0;
+        position: relative;
+        align-self: center;
+    }
+    .right-t>:last-child{
+        /* display: block; */
+        bottom: 0;
+        left: 0;
+        gap: 1rem;
+    }
 }
