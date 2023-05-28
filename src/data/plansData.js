@@ -13,7 +13,7 @@ export const plansData = [
     name: "BASIC PLAN",
     price: "25",
     features: [
-      "2 hours of excercises",
+      "3 hours of excercises",
       "Free consultaion to coaches",
       "Access to The Community",
     ],

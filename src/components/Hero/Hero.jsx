@@ -7,6 +7,7 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import {motion} from 'framer-motion';
 import NumberCounter from 'number-counter';
+import { Link } from "react-scroll/modules";
 
 const Hero=()=>{
     const transition={type: 'tween', duration: 3};
@@ -19,7 +20,7 @@ const Hero=()=>{
                 {/* The best ad */}
                 <div className='the-best-ad'>
                     <motion.div 
-                    initial={{left: mobile?'170px':'238px'}}
+                    initial={{left: mobile?'185px':'238px'}}
                     whileInView={{left: '6px'}}
                     transition={transition}
                     ></motion.div>
@@ -28,7 +29,7 @@ const Hero=()=>{
                 {/* Hero Heading */}
                 <div className='hero-text'>
                     <div>
-                        <span className='stroke-text'>Shape</span>
+                        <span className='stroke-text'>Shape </span>
                         <span>Your</span>
                     </div>
                     <div><span>Ideal Body</span></div>
@@ -42,12 +43,18 @@ const Hero=()=>{
                 </div>
                 {/* Hero buttons */}
                 <div className="hero-buttons">
-                    <button className="btn">Get Started</button>
-                    <button className="btn">Learn More</button>
+                    <Link to="Join" spy={true} smooth={true}>
+                            <button className="btn">Get Started</button>
+                    </Link>
+                    <Link to="Plans" spy={true} smooth={true}>
+                        <button className="btn">Learn More</button>
+                    </Link>
                 </div>
             </div>
             <div className='hero-right'>
-                <button className="btn">Join Now</button>
+                <Link to="Join" spy={true} smooth={true}>
+                    <button className="btn">Join Now</button>
+                </Link>
                 <motion.div 
                 initial={{right: '-1rem'}}
                 whileInView={{right: '3rem'}}

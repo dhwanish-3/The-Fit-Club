@@ -12,8 +12,7 @@ const Header=()=>{
             <img src={Logo} alt="" className="logo" />
             {(mobile===true && menuOpened===false)?(
             <div className='bars-container'
-            onClick={()=>setMenuOpened(true)}
-            >
+                onClick={()=>setMenuOpened(true)}>
                 <img className='bars' src={Bars} alt="" />
             </div>
             ):(

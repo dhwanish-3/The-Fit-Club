@@ -40,13 +40,14 @@
 .right-r{
     flex: 1 1;
     text-transform: uppercase;
-    gap: 1rem;
+    gap: 2rem;
     display: flex;
     flex-direction: column;
 }
 
 .right-r>span{
     font-weight: bold;
+    font-size: x-large;
     color: var(--orange);
 }
 
@@ -63,6 +64,7 @@
 }
 .details-r>div{
     display: flex;
+    align-items: center;
     font-size: 1rem;
     gap: 1rem;
 }
@@ -72,7 +74,7 @@
 }
 
 .our-partners{
-    color:var(--gray);
+    color:var(--orange);
     font-weight: normal;
 }
 
@@ -107,5 +109,10 @@
     .left-r>:nth-child(4){
         width: 7rem;
         height: 6.8rem;
+    }
+
+    .partners{
+        justify-content: center;
+        margin-bottom: 4rem;
     }
 }

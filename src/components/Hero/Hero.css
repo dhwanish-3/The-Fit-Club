@@ -100,24 +100,25 @@
     font-weight: normal;
 }
 
-.hero-buttons>:nth-child(1){
+.hero-buttons>:nth-child(1)>.btn{
     color: white;
     background-color: var(--orange);
     width: 8rem;
 }
-.hero-buttons>:nth-child(2){
+.hero-buttons>:nth-child(2)>.btn{
     color: white;
     background-color: transparent;
     width: 8rem;
+    height: 2.5rem;
     border: 2px solid var(--orange);
 }
 
 /* Right-side */
-.hero-right>.btn{
+.hero-right>:nth-child(1)>.btn{
     position: absolute;
     right: 3rem;
     top: 2rem;
-    color: black;
+    color: orange;
 }
 
 .heart-rate{
@@ -126,9 +127,9 @@
     gap: 1rem;
     background-color: var(--darkGrey);
     width: fit-content;
-    padding: 1rem;
+    padding: 1.5rem;
     align-items: start;
-    border-radius: 5px;
+    border-radius: 20px;
     position: absolute;
     right: 3rem;
     top: 7rem;
@@ -202,10 +203,11 @@
         width: 14rem;
     }
     .the-best-ad{
-        margin-top: 0;
+        margin-top: 4rem;
         font-size: small;
         align-self: center;
-        transform: scale(0.8);
+        width: max-content;
+        transform: scale(0.85);
     }
     .hero-text{
         font-size: xx-large;
@@ -236,14 +238,20 @@
         background: none;
         height: 0rem;
     }
+    .hero-right>:nth-child(1)>.btn{
+        position: absolute;
+        right: 7rem;
+        top: 28rem;
+    }
     .heart-rate{
+        padding: 1rem;
         left: 1rem;
         top: 2rem;
     }
     .calories{
         position: relative;
-        top: 5rem;
-        left: 2rem;
+        top: 0rem;
+        left: 1rem;
         width:7rem;
         gap: 1rem;
     }
@@ -267,8 +275,8 @@
         align-self: center;
     }
     .hero-image-back{
-        width:15rem;
-        left: 2rem;
+        width:13rem;
+        left: 4rem;
         top: 0rem;
     }
 

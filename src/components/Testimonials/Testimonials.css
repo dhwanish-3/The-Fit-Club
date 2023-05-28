@@ -15,6 +15,7 @@
 .left-t>:nth-child(1){
     color: var(--orange);
     font-weight: bold;
+    font-size: x-large;
 }
 .left-t>:nth-child(2),
 .left-t>:nth-child(3){
@@ -29,7 +30,7 @@
 .left-t>:nth-child(4)>:nth-child(1){
     text-transform: none;
     align-items:justify;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 40px;
 }
 
@@ -103,8 +104,8 @@
         height: 20rem;
         border: 2px solid orange;
         background-color: transparent;
-        left: -5%;
-        top: -1.2rem;
+        left: -8%;
+        top: -1rem;
     } 
     .right-t>:nth-child(2){
         position: absolute;
@@ -116,12 +117,11 @@
     }
     .right-t>img{
         top: 0;
-        right: 0;
+        right: 3%;
         position: relative;
         align-self: center;
     }
     .right-t>:last-child{
-        /* display: block; */
         bottom: 0;
         left: 0;
         gap: 1rem;

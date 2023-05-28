@@ -2,6 +2,8 @@ import React from 'react';
 import './Plans.css';
 import {plansData} from '../../data/plansData';
 import whiteTick from '../../assets/whiteTick.png';
+import RightArrow from '../../assets/rightArrow.png';
+import { Link } from "react-scroll/modules";
 
 const Plans=()=>{
     return (
@@ -20,7 +22,7 @@ const Plans=()=>{
                         <span>{plan.name}</span>
                         <div className="pricing">
                             <span>Rs.{plan.price*10}</span>
-                        <span>/month</span>
+                            <span>/month</span>
                         </div>                        
                         <div className="features">
                             {plan.features.map((feature,index)=>(
@@ -31,9 +33,12 @@ const Plans=()=>{
                             ))}
                         </div>
                         <div>
-                            <span>See more benefits {`->`}</span>
+                            <span>See more benefits</span>
+                            <img className="right-arrow" src={RightArrow} alt="" />
                         </div>
-                        <button className="btn">Join now</button>
+                        <Link to="Join" spy={true} smooth={true}>
+                            <button className="btn">Join now</button>
+                        </Link>
                     </div>
                 ))}
             </div>

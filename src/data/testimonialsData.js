@@ -18,7 +18,7 @@ export const testimonialsData = [
   },
   {
     image : image3,
-    review:'This is like dream come to true... Thank you The Fit CLub for lending a hand to achieve success...',
+    review:'This is like dream come to true... Thank you The Fit Club for lending a hand to achieve success...',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }
