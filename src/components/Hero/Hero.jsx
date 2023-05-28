@@ -1,11 +1,13 @@
-import React from 'react'
-import './Hero.css'
-import Header from '../Header/Header'
-import hero_image from "../../assets/hero_image.png"
-import hero_image_back from "../../assets/hero_image_back.png"
-import Heart from "../../assets/heart.png"
-import Calories from "../../assets/calories.png"
+import React from 'react';
+import './Hero.css';
+import Header from '../Header/Header';
+import hero_image from "../../assets/hero_image.png";
+import hero_image_back from "../../assets/hero_image_back.png";
+import Heart from "../../assets/heart.png";
+import Calories from "../../assets/calories.png";
 import {motion} from 'framer-motion';
+import NumberCounter from 'number-counter';
+
 const Hero=()=>{
     const transition={type: 'tween', duration: 3};
     const mobile=window.innerWidth<=768?true:false;
@@ -34,9 +36,9 @@ const Hero=()=>{
                 </div>
                 {/* experiance figures */}
                 <div className="figures">
-                    <div><span>+140</span><span>expert coachs</span></div>
-                    <div><span>+978</span><span>members joined</span></div>
-                    <div><span>+50</span><span>fitness programs</span></div>
+                    <div><span><NumberCounter preFix="+" start={100} end={140} delay="4" /></span><span>expert coachs</span></div>
+                    <div><span><NumberCounter preFix="+" start={0} end={50} delay="1" /></span><span>fitness programs</span></div>
+                    <div><span><NumberCounter preFix="+" start={700} end={978} delay="4" /></span><span>members joined</span></div>
                 </div>
                 {/* Hero buttons */}
                 <div className="hero-buttons">
